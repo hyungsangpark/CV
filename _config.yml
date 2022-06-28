@@ -3,7 +3,7 @@ repository: hyungsangpark/CV
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: Hyungsang Park
@@ -18,22 +18,17 @@ darkmode: false
 # twitter_username: facespics
 github_username: hyungsangpark
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
 # facebook_username: jekyll
-# flickr_username: jekyll
 # instagram_username: hsinvade
 linkedin_username: hyungsangpark
-# xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+  - title: CV in PDF
+    icon: fas fa-file-pdf
+    url: https://github.com/hyungsangpark/CV/raw/main/CV%20-%20Hyungsang%20Park.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -107,21 +102,21 @@ content:
           This was a project developed as part of Microsoft Student Accelerator NZ program. 
           I had to develop a full-stack web application that uses <mark>TypeScript React</mark> and <mark>C# .NET</mark> with <mark>GraphQL</mark> as API library. The application is hosted on Azure Web Apps. This application allows you to upload QT texts (short for Quiet Time, a contemplation on a short piece of scripture) and share them with your friends. It uses ESV Bible API to retrieve the scripture texts.
 
-#      - layout: left
-#        title: Quinzical
-#        link: github.com/hyungsangpark/Quinzical
-#        link_text: Project Repository
-#        additional_links:
-#          - title: hyungsangpark/Quinzical
-#            icon: fab fa-github
-#            url: github.com/hyungsangpark/Quinzical
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
-#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#        description: | # this will include new lines to allow paragraphs
-#          jdkfjasd
+  #      - layout: left
+  #        title: Quinzical
+  #        link: github.com/hyungsangpark/Quinzical
+  #        link_text: Project Repository
+  #        additional_links:
+  #          - title: hyungsangpark/Quinzical
+  #            icon: fab fa-github
+  #            url: github.com/hyungsangpark/Quinzical
+  #          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #          #   icon: fab fa-github
+  #          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #        quote: >
+  #          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #        description: | # this will include new lines to allow paragraphs
+  #          jdkfjasd
 
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -142,14 +137,14 @@ content:
           assisting fellow interns in their set up process. As a result, set up time was dramatically decreased down to 
           20% of previous years.  
 
-#      - layout: left
-#        title: Electoral Commission
-#        link: https://elections.nz
-#        link_text: elections.nz
-#        sub_title: Issuing Officer & On-Site Translator
-#        caption: Oct 2020 - Oct 2020
-#        description: | # this will include new lines to allow paragraphs
-#          he
+  #      - layout: left
+  #        title: Electoral Commission
+  #        link: https://elections.nz
+  #        link_text: elections.nz
+  #        sub_title: Issuing Officer & On-Site Translator
+  #        caption: Oct 2020 - Oct 2020
+  #        description: | # this will include new lines to allow paragraphs
+  #          he
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -161,27 +156,42 @@ content:
         quote: >
           "Founded in 1883, Auckland is the country’s largest university with over 40,000 students, nearly 10,000 of whom graduate annually."
         description: | # this will include new lines to allow paragraphs
+          I majored in Bachelor of Engineering (Honours) specialising in Software Engineering. From the university, I learned various tools and practices to become a better software engineer. This includes fundamentals of programming like OOP, design patterns, and software engineering principles, to even effective ways to collaborate with colleagues in groups of varying sizes. (from a group of two people to even 20 people)
           
+          Some of the achievements I have made during my time at the University of Auckland are:
+          - Specialising in Software Engineering (Minimum cohort GPA of A- in first year) 
+          - Dean's Honours List for 2020 (Top 5% GPA)
+          - Certificate of Outstanding Achievement for 2021 (School of Computer Science)
 
       - layout: left
-        title: Microsoft Student Accelerator NZ
+        title: Microsoft Student Accelerator
         caption: Mar 2021 - Oct 2021
         quote: >
-          "hello world"
+          "Bridging the gap between university and the workplace."
         description: | # this will include new lines to allow paragraphs
-          During
+          Microsoft Student Accelerator NZ (short for MSA) is a work-placement program for software developers in New Zealand that provides students a chance to learn and develop full stack web development skills and prove their competence in such skills to the associated industries. As part of the program, I developed QTWithMe as included in the projects section and received a certificate of completion as well as AZ-900: Microsoft Azure Fundamentals Certificate. I also achieved to be eligible for work-place offer after completing the program.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-    #      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#      - Rock climbing
-#      - Gaming
-#      - Knitting
-#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-#
-#      Look at this cool image
-#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in software engineering, some of my other interests and hobbies are:
+      - Learning new languages 🗣
+        - Can natively speak: <mark>English</mark> and <mark>Korean</mark>
+        - Can understand and communicate to a some degree: <mark>Chinese</mark> and <mark>Japanese</mark> 
+        - Knows a few phrases (learned from friends): <mark>Hindi</mark>
+        - Would like to learn in the future: Other European languages, a bit more Chinese and Japanese.
+      
+      - Listening to a variety of music 🎵
+        - K-Pop (mostly old)
+        - Classical
+        - Jazz
+        - Christian Contemporary Music
+      
+      - Presentation Software 👨🏻‍💻
+        - I have been volunteering at my local church as a presentation team for the last 10 years and so far, I have used ProPresenter and PowerPoint to provide the best worship slide experience to the congregation. 
+        - So far, my favourite presentation software in church context is [<mark>ProPresenter</mark>](https://renewedvision.com/propresenter/) because of its powerful ability in managing slides and outside of church context.
+      
+      - And many more... Meet me to know more about my interests and hobbies. 
 
 # Footer
 footer_show_references: true
