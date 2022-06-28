@@ -16,7 +16,7 @@ darkmode: false
 
 # Social links
 # twitter_username: facespics
-github_username:  hyungsangpark
+github_username: hyungsangpark
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -49,11 +49,10 @@ linkedin_username: hyungsangpark
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Hyungsang Park. I'm a Software Engineering Student in my final year. 
-  My area of interest are frontend and mobile development. 
-  I have internship experience in the field of mobile development, using React Native and TypeScript. 
+  My area of interests are frontend and mobile development. 
+  I have experiences in web development with React and TypeScript, and in mobile development with React Native and both iOS and Android native development environment. 
   
-  Other than development, I am interested in learning new languages, listening to a variety of music, and talking
-  with people in a cafe after a good meal. 
+  Other than development, I am interested in learning new languages, listening to a variety of music, presentation software, and talking with good people in a cafe after a nice meal. 
 
   I am most skilled in: <mark>React</mark> and <mark>learning different languages</mark>
 
@@ -61,83 +60,96 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: CodeRacer
         link: https://fearless-frogs-project-webapp.herokuapp.com/
-#         link_text: Project Website
+        link_text: CodeRacer - Website
         additional_links:
-          - title:  hyungsangpark/Quinzical
+          - title: Repository for CodeRacer
             icon: fab fa-github
-            url: github.com/hyungsangpark/Quinzical
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: github.com/hyungsangpark/CodeRacer
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          "Learn coding by type-racing with others."
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          CodeRacer enables users to practise the code syntax and familiarise themselves with the frequently used algorithms by typing a block of code in a timed manner. The game supports single player and multiplayer up to 5 players. This project uses <mark>TypeScript</mark>-based MERN stack (<mark>MongoDB</mark>, <mark>Express</mark>, <mark>React</mark>, <mark>Node.js</mark>) and is hosted on Heroku. It was developed by a group of 5 students, and I participated in the development of UI and frontend as well as some <mark>CI/CD</mark> managements.
 
-      - layout: top-middle
+      - layout: left
         title: Taximeter
         link: github.com/hyungsangpark/Taximeter
-        # link_text: Project Website
+        link_text: Project Repository
         additional_links:
-          - title:  hyungsangpark/Taximeter
+          - title: Github Repository for Taximeter
             icon: fab fa-github
             url: github.com/hyungsangpark/Taximeter
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          "It's not just taxi drivers who need meters."
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project as a way to learn <mark>Swift</mark> and <mark>SwiftUI</mark> for iOS native mobile
+          development. What also motivated me was because I was receiving a lot of rides from my friends, 
+          and this would be a fun app to turn it on and quantitatively measure the price of the ride. (Of course, with
+          an intention to compensate them back 😉) It uses location services to track the speed of the ride and 
+          accumulates rides accordingly to the price specification of Korean taxi price regulations. 
 
-      - layout: top-middle
-        title: Quinzical
-        link: github.com/hyungsangpark
-        # link_text: Project Website
+      - layout: left
+        title: QTWithMe
+        link: https://qtwithme-frontend-2021.azurewebsites.net
+        link_text: QTWithMe - Website
         additional_links:
-          - title:  hyungsangpark/Quinzical
+          - title: Frontend Repository for QTWithMe
             icon: fab fa-github
-            url: github.com/hyungsangpark/Quinzical
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-      - layout: top-middle
-        title: Taximeter
-        link: github.com/hyungsangpark/Taximeter
-        # link_text: Project Website
-        additional_links:
-          - title:  hyungsangpark/Taximeter
+            url: github.com/hyungsangpark/MSA-QTWithMe-Frontend
+          - title: Backend Repository for QTWithMe
             icon: fab fa-github
-            url: github.com/hyungsangpark/Taximeter
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: github.com/hyungsangpark/MSA-QTWithMe-Backend
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          "Welcome to QTWithMe, share your daily portion of the Bible."
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          This was a project developed as part of Microsoft Student Accelerator NZ program. 
+          I had to develop a full-stack web application that uses <mark>TypeScript React</mark> and <mark>C# .NET</mark> with <mark>GraphQL</mark> as API library. The application is hosted on Azure Web Apps. This application allows you to upload QT texts (short for Quiet Time, a contemplation on a short piece of scripture) and share them with your friends. It uses ESV Bible API to retrieve the scripture texts.
 
-  - title: Experience # Title for the section
+#      - layout: left
+#        title: Quinzical
+#        link: github.com/hyungsangpark/Quinzical
+#        link_text: Project Repository
+#        additional_links:
+#          - title: hyungsangpark/Quinzical
+#            icon: fab fa-github
+#            url: github.com/hyungsangpark/Quinzical
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          jdkfjasd
+
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Sweet Dream
-        link: www.sweetdream.co.nz
-        # link_text: boringcompany.com
-        sub_title: Duvet Manufacturer
-        caption: Nov 2019 - Feb 2020
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: Sylo
+        link: https://www.sylo.io/
+        link_text: sylo.io
+        sub_title: Software Engineer Intern
+        caption: Nov 2021 - Feb 2022
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          I was part of the application team which developed Sylo Mobile application. We used React Native and TypeScript
+          to develop a cross-platform mobile application. Some of the tasks I've participated in my internship were 
+          solving missing NFT issues, implementing the ability to send multiple medias in chat, and fixing issues on 
+          Android devices regarding permissions and multiple concurrent video instances. 
+          
+          An achievement I've made during this internship is updating the frontend codebase set-up documentation and 
+          assisting fellow interns in their set up process. As a result, set up time was dramatically decreased down to 
+          20% of previous years.  
+
+#      - layout: left
+#        title: Electoral Commission
+#        link: https://elections.nz
+#        link_text: elections.nz
+#        sub_title: Issuing Officer & On-Site Translator
+#        caption: Oct 2020 - Oct 2020
+#        description: | # this will include new lines to allow paragraphs
+#          he
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -147,16 +159,22 @@ content:
         caption: Mar 2019 - Nov 2022
         sub_title: BE (Hons) in Software Engineering
         quote: >
-          Founded in 1883, Auckland is the country’s largest university with over 40,000 students, nearly 10,000 of whom graduate annually.
+          "Founded in 1883, Auckland is the country’s largest university with over 40,000 students, nearly 10,000 of whom graduate annually."
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Microsoft Student Accelerator NZ
+        caption: Mar 2021 - Oct 2021
+        quote: >
+          "hello world"
+        description: | # this will include new lines to allow paragraphs
+          During
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+    #      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
 #      - Rock climbing
 #      - Gaming
 #      - Knitting
@@ -177,4 +195,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
